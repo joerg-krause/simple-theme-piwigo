@@ -3,9 +3,8 @@
 all: css js
 
 css:
-	@echo "Build css with boostrap and recess"
+	@echo "Compile and compress less files..."
 	recess --compress css/style.less > css/style.min.css
-	recess --compress bootstrap/less/responsive.less > css/bootstrap-responsive.min.css
 
 # Watch less files
 watch:
