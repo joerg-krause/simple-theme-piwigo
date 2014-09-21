@@ -12,13 +12,13 @@
       {if isset($comment.U_DELETE) or isset($comment.U_VALIDATE) or isset($comment.U_EDIT) }
       <div class="actions">
 	{if isset($comment.U_DELETE)}
-	<a href="{$comment.U_DELETE}" title="{'delete this comment'|@translate}" onclick="return confirm('{'Are you sure?'|@translate|@escape:javascript}');"><i class="icon-remove icon-white"></i></a>
+	<a href="{$comment.U_DELETE}" title="{'delete this comment'|@translate}" onclick="return confirm('{'Are you sure?'|@translate|@escape:javascript}');"><i class="glyphicon glyphicon-remove"></i></a>
 	{/if}
         {if isset($comment.U_EDIT) and !isset($comment.IN_EDIT)}
-        <a class="editComment" href="{$comment.U_EDIT}#edit_comment" title="{'edit this comment'|@translate}"><i class="icon-edit icon-white"></i></a>
+        <a class="editComment" href="{$comment.U_EDIT}#edit_comment" title="{'edit this comment'|@translate}"><i class="glyphicon glyphicon-edit"></i></a>
         {/if}
 	{if isset($comment.U_VALIDATE)}
-	<a href="{$comment.U_VALIDATE}" title="{'validate this comment'|@translate}"><i class="icon-ok icon-white"></i></a>
+	<a href="{$comment.U_VALIDATE}" title="{'validate this comment'|@translate}"><i class="glyphicon glyphicon-ok"></i></a>
 	{/if}
       </div>
       {/if}
