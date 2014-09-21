@@ -10,7 +10,7 @@
       <h3>
         <a href="{$cat.URL}">{$cat.NAME}</a>
         {if !empty($cat.icon_ts)}
-        <i class="icon-exclamation-sign icon-white"></i>
+        <i class="glyphicon glyphicon-exclamation-sign"></i>
         {/if}
       </h3>
       {if isset($cat.INFO_DATES) }
