@@ -2,13 +2,13 @@
   {foreach from=$comments item=comment name=comment_loop}
   <li class="row">
     {if isset($comment.src_image)}
-    <div class="illustration span4">
+    <div class="illustration col-md-4">
       <a href="{$comment.U_PICTURE}">
 		<img src="{$pwg->derivative_url($derivative_params, $comment.src_image)}" alt="{$comment.ALT}">
 	  </a>
     </div>
     {/if}
-    <div class="description span6">
+    <div class="description col-md-6">
       {if isset($comment.U_DELETE) or isset($comment.U_VALIDATE) or isset($comment.U_EDIT) }
       <div class="actions">
 	{if isset($comment.U_DELETE)}
