@@ -7,7 +7,7 @@
   {foreach from=$thumbnails item=thumbnail}
   {assign var=derivative value=$pwg->derivative($derivative_params, $thumbnail.src_image)}
   <li class="col-md-3">
-    <a href="{$thumbnail.URL}" class="thumbnail">
+    <a href="{$thumbnail.URL}" class="img-thumbnail">
       <img src="{$derivative->get_url()}" alt="{$thumbnail.TN_ALT}" data-original-title="{$thumbnail.TN_TITLE}" />
     </a>
   </li>
