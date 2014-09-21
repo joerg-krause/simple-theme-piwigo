@@ -15,7 +15,7 @@
       {/if}
 
       <input type="hidden" name="redirect" value="{$U_REDIRECT|@urlencode}">
-      <input type="submit" name="login" value="{'Submit'|@translate}" class="btn">
+      <input type="submit" name="login" value="{'Submit'|@translate}" class="btn btn-default">
   </form>
 
   <p>
