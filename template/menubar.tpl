@@ -4,7 +4,7 @@
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-header">
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-collapse">
+      <a class="btn navbar-btn" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
