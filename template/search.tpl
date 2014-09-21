@@ -102,5 +102,5 @@
 </fieldset>
 
 <input class="btn btn-primary" type="submit" name="submit" value="{'Submit'|@translate}">
-<input class="btn" type="reset" value="{'Reset'|@translate}">
+<input class="btn btn-default" type="reset" value="{'Reset'|@translate}">
 </form>
