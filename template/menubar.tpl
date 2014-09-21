@@ -13,7 +13,7 @@
     </div>
 
     <div class="navbar-collapse collapse">
-      <ul class="nav">
+      <ul class="nav navbar-nav">
         {foreach from=$blocks key=id item=block}
         <li id="{$id}" class="dropdown">
           {if not empty($block->template)}
