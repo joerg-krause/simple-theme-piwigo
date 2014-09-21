@@ -16,6 +16,6 @@
     <br />
     <input type="hidden" name="key" value="{$F_KEY}" >
     <input type="submit" name="submit" value="{'Register'|@translate}" class="btn btn-primary">
-    <input type="reset" value="{'Reset'|@translate}" class="btn">
+    <input type="reset" value="{'Reset'|@translate}" class="btn btn-default">
   </form>
 </div>
