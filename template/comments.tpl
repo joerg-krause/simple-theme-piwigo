@@ -37,7 +37,7 @@
     </select>
     </label>
   </fieldset>
-  <input type="submit" value="{'Filter and display'|@translate}" class="btn">
+  <input type="submit" value="{'Filter and display'|@translate}" class="btn btn-default">
 </form>
 {if !empty($navbar) }{include file='navigation_bar.tpl'|@get_extent:'navbar'}{/if}
 
