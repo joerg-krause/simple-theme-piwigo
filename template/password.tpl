@@ -12,7 +12,7 @@
     <label>{'Username or email'|@translate}
     <input type="text" id="username_or_email" name="username_or_email" {if isset($username_or_email)} value="{$username_or_email}"{/if}></label>
     <input type="hidden" name="pwg_token" value="{$PWG_TOKEN}">
-    <input type="submit" name="submit" value="{'Change my password'|@translate}" class="btn">
+    <input type="submit" name="submit" value="{'Change my password'|@translate}" class="btn btn-default">
   </form>
 
   {elseif $action eq 'reset'}
