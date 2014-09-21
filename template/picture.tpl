@@ -8,7 +8,7 @@
     {/if}
     {if isset($PLUGIN_PICTURE_ACTIONS)}{$PLUGIN_PICTURE_ACTIONS}{/if}
     {if isset($favorite)}
-    <li><a href="{$favorite.U_FAVORITE}">{if $favorite.IS_FAVORITE}<i class="glyphicon glyphicon-star"></i>{else}<i class="icon-star-empty icon-white"></i>{/if}</a></li>
+    <li><a href="{$favorite.U_FAVORITE}">{if $favorite.IS_FAVORITE}<i class="glyphicon glyphicon-star"></i>{else}<i class="glyphicon glyphicon-star-empty"></i>{/if}</a></li>
     {/if}
     {if !empty($U_SET_AS_REPRESENTATIVE)}
     <li><a href="{$U_SET_AS_REPRESENTATIVE}" title="{'set as album representative'|@translate}"><i class="glyphicon glyphicon-picture"></i></a></li>
