@@ -12,7 +12,7 @@
       <a class="navbar-brand" href="#"></a>
     </div>
 
-    <div class="nav-collapse">
+    <div class="navbar-collapse collapse">
       <ul class="nav">
         {foreach from=$blocks key=id item=block}
         <li id="{$id}" class="dropdown">
