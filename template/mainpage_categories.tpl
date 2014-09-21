@@ -2,7 +2,7 @@
 
 <ul class="thumbnails">
 {foreach from=$category_thumbnails item=cat name=cat_loop}
-  <li class="span3">
+  <li class="col-md-3">
   <figure class="thumbnail">
     <a href="{$cat.URL}" data-original-title="{$cat.CAPTION_NB_IMAGES}">
       <img src="{$pwg->derivative_url($derivative_params, $cat.representative.src_image)}" alt="{$cat.TN_ALT}" /></a>
