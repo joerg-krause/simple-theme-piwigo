@@ -113,7 +113,7 @@
 	<label for="contentid">{'Comment'|@translate} ({'mandatory'|@translate}) :</label>
 	<textarea name="content" id="contentid">{$comment_add.CONTENT}</textarea>
 	<input type="hidden" name="key" value="{$comment_add.KEY}">
-	<input type="submit" value="{'Submit'|@translate}" class="btn">
+	<input type="submit" value="{'Submit'|@translate}" class="btn btn-default">
       </form>
     </div>
     {/if}
